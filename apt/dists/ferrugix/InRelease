@@ -1,21 +1,43 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-
+Architectures: amd64
+Codename: ferrugix
+Components: main
+Date: Mon, 17 Nov 2025 11:26:28 +0000
+Label: Ferrugix OS
+Origin: Ferrugix OS
+Suite: ferrugix
+MD5Sum:
+ e77eb062766742b8c1f9af4b48566893              150 Release
+ 2db2de926eaef16cd5a17fd74c807b27            35439 main/binary-amd64/Packages
+ c5effcb80860abb651ae2a68b8b7ad34             9119 main/binary-amd64/Packages.gz
+SHA1:
+ 8d4e01e65832a4c50f1254989be86b19c789a938              150 Release
+ 50ad3f05b709412bab63d5fd5f4e6faf8a40ddf3            35439 main/binary-amd64/Packages
+ 7fda044fbcff34ff02108ec345712987b935922a             9119 main/binary-amd64/Packages.gz
+SHA256:
+ a5cf76e0d2d1ce6588700dcc8addfec7ed08f2aab8f926c4865741f9355855b1              150 Release
+ 2c82410dbfb06949c9b2f0a49a4bcf5adb7d56ee807812e9ae3d5cb426005191            35439 main/binary-amd64/Packages
+ c0022d6d56ddb3a49d8d98759ebe93bd4c0b9cf42cd88d45b7041cd30a7f14ba             9119 main/binary-amd64/Packages.gz
+SHA512:
+ 540b161c7354544022ef7dc05c1cd17e70bce4bfe9bcd085717a959850dfb66aef0ef90e1ca5ee04313817ca4751700b1c73fd0309ecc667d589efe61b1adb79              150 Release
+ c591415aa32721796f12e344d90695861a493525953656519b07312c143bc771a2500568f6381787e33ea381f38f1e0b31244ed708895ecd457055846eb1f785            35439 main/binary-amd64/Packages
+ f64db06441bb04e4bccb02c30567929d56a76841d4b804e0ede1250009557c7750205718bdc39fb4e7b4d1f780f1f3d5283e0f869fee8d164a3d77007536d35f             9119 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJQBAEBCgA6FiEEcD1RwvLNtgvyv4hjDIQKQ8O1Mm4FAmkbBGgcHGZlcnJ1Z2l4
-LWFwdEBmZXJydWdpeC5sb2NhbAAKCRAMhApDw7Uybvu5D/99/6OaJTEDUafXk52s
-X4dJUVVDMU8k91XBoaZNaSuaDcjF1jItmuGmZ6HXSXzDmlYpCI26X3JGGn46WJv8
-8wLZBht2en7bcDZ2bjCcF12GVWF/kNsuf96/SVQeTThonXmq39ubnwPIXZI7J6Gd
-WEAzlqGpTtEiRfVZAuZLNlnWDixQAcfZrI+LQwhGaWuKjMJR+vue9CCIpxdvsxVa
-FeO/Ibm84A1btulHcLLM9Prt/F/Hey8acdKF6KNCfSVFUu3PrWLU7vygw1RHm17C
-eXgBzJW2LFw+BgBjrtgB8RHvLC/5ztr4pmp06qsW2zafPa14lS0BZgailL9XTsEs
-NdhFF19DEP0fp6qtskiQHDCVeI974eMQFkae1zCLmWqEafV6Coe14dxCdUdwlc3i
-u6Ms8FSZBbw05rZJxG18CLnhssVqOPY4PU2kgAhddsdDx/v1A+3zNeGx1zDhdsID
-JfUSs4b34S56ourYl8E6gV2jC12v56MEJIy3fqM+FShZ4yLOmP6H3Hr4nddb6Qop
-QwrN04oQdAWBOSbD/gSJlbDz+Nb+IQ/qUJKN/g59pCC2mDsl4mYhSgTwQit6OUzg
-J3Cy8flLH/PMO3sYM6gIiboOQo51o2R7D2PEWuJFyqC4LmW06syO4BairZEi57CO
-03xq9ZJ+KXaoeR3pOoLnW46Ryg==
-=iMIT
+iQJQBAEBCgA6FiEEcD1RwvLNtgvyv4hjDIQKQ8O1Mm4FAmkbBngcHGZlcnJ1Z2l4
+LWFwdEBmZXJydWdpeC5sb2NhbAAKCRAMhApDw7UybpWkEACcF+YmsHqaHddYH341
+sw0vxYdo4WKcZULe+UyXso13OE3HBq7NumXCoxl7Xx8kxllY3kbN/2xeefwgPWoy
+aHPCY11RL0HW72oMsD8st34SUm7/GiZJq5+3PmUd3+8J2lrJX85t13fwJ8pNNoFH
+41O0i5iZZBawbrrg6owjzG5ePTzOmYy4MdSQNKG6+5CsV3WCDUi6w7gSAjYps5Zw
+SISKCamCswkC7I4QqJHobVzex5Qs9VFNRvPKEUsZo+jiWGjtpjwh8UbVgvxKSVxM
+uczFVNqN1Zrk4crt8lqB7ozLcLEeV+FNkIrcUzc8yItO7N90NB4dK0+2hmTegm2t
+ArAJdCUIu7FFphihXsm9BS/JGAtUQjct+WmLtFKKyXDImekvVQjlZg+0r4NCMA+b
+MElPXHW/765X39FRvm5/TkApVdo69rbGi3eJsgfWHilayQtVsZWvUN/cKuBLqS8p
+UmqNzYHRhN5T+U1c5508sZlR/B1hApibfHy3rDtrnCR1oi7kPSOQHUi6fIBBBQHv
+ofzOhuErmAEFJX386/+MMDO7Zys9fdo1ER8qVbMyIzlhlA0m2ll2L1+Q7EC8LwaK
+ENp2WmkJc9BUMpuAxifBOntpNZXn/fqEuEA1jpG+AqmUVaGo19ENkz/yH0vEyAUI
+rOmikJUMoOd/q1fXFl6VSUQ29Q==
+=lXcl
 -----END PGP SIGNATURE-----
