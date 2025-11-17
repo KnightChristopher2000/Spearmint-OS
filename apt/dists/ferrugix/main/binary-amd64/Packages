@@ -1,0 +1,880 @@
+Package: ferru-bluetooth
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 2769
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-bluetooth_0.1.0-1_amd64.deb
+Size: 768688
+MD5sum: 2dec7e89d3caade1e91f4092715811e9
+SHA1: 337dbe45ebf5b2e18afaca37c38486e558b17819
+SHA256: e1a21d1ecaa26f20349ba6ab9bfbb2a30589264b607ce3286aaf63c57f776d00
+Section: x11
+Priority: optional
+Description: Ferrugix Bluetooth Manager
+ GTK4/Libadwaita-based Bluetooth Manager for Ferrugix OS. Provides a
+ Blueman-style interface for managing adapters and devices. Backend
+ integration with BlueZ can be added later via D-Bus or ferru-bridge.
+
+Package: ferru-bluetooth-dbgsym
+Source: ferru-bluetooth
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 1250
+Depends: ferru-bluetooth (= 0.1.0-1)
+Filename: pool/main/f/ferru-bluetooth-dbgsym_0.1.0-1_amd64.deb
+Size: 133136
+MD5sum: e2f68675e1625ec2c8124f106c4162fa
+SHA1: 9f0f6e717fb90f41a32fdc74175a02d4b3ab2e44
+SHA256: e4655c10fd5f022f1e2c71dcbc791fffd650da20ad22404eaca43833cfb46485
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-bluetooth
+Build-Ids: df15792e3f7d43abdfe5073f383f211ae26b117f
+
+Package: ferru-bridge
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 1885
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: pool/main/f/ferru-bridge_0.1.0-1_amd64.deb
+Size: 622716
+MD5sum: 58c58605610dcd39a03aaeb80f8f1c0e
+SHA1: e7c983d6b9bf924cef8bef7d943803d1eba96ccd
+SHA256: bd5f8d6e136a9fcc0291e4e93250a055667cbb2fc2bd71289c121c0276ad12af
+Section: utils
+Priority: optional
+Description: Ferrugix APT bridge daemon
+ Backend D-Bus service that bridges GUI tools to APT and system package
+ management, replacing Mint's AptKit and Captain stack for Ferrugix OS.
+
+Package: ferru-bridge-dbgsym
+Source: ferru-bridge
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 844
+Depends: ferru-bridge (= 0.1.0-1)
+Filename: pool/main/f/ferru-bridge-dbgsym_0.1.0-1_amd64.deb
+Size: 100332
+MD5sum: 987c454641090a7a30e3b279720aea45
+SHA1: f00fb107434a27d34350ba254242a715d9400faf
+SHA256: 4015c15d08bfe36cb335214ffeea8e60b7525020f94574d4833aa9883bfc9fb1
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-bridge
+Build-Ids: 072840866072c70f9f55c93a991db9b0370865f7
+
+Package: ferru-console
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libvte-2.91-gtk4-0
+Filename: pool/main/f/ferru-console_0.1.0-1_amd64.deb
+Size: 161228
+MD5sum: 5d663f3ec0a00b26a596de495b7ac618
+SHA1: f9d7e4b2b556309a83014ea15c981585b6656aee
+SHA256: 323a45187a1134ce0bfc137bee14be4ef1bff9ff9021d555b73c39ebcab1671c
+Section: x11
+Priority: optional
+Description: Ferrugix terminal console
+ GTK4/Libadwaita-based terminal console for Ferrugix OS. Uses the VTE
+ widget and can perform full read/write actions on the system and disks
+ when the user authenticates as the superuser (e.g. via sudo or su).
+
+Package: ferru-console-dbgsym
+Source: ferru-console
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 254
+Depends: ferru-console (= 0.1.0-1)
+Filename: pool/main/f/ferru-console-dbgsym_0.1.0-1_amd64.deb
+Size: 35548
+MD5sum: 0f29b998a5b8bca5aa45916475087676
+SHA1: de228fc1ab3d3839f980565c328d4d4523dc4be9
+SHA256: 1e0a99af9bef634a81280225fc84b8061d41e916e64e30db276b723a0fe86971
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-console
+Build-Ids: b3682b3703022945b7cce1517b77d804aa26c1ea
+
+Package: ferru-desktop-live
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 385
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), ferru-bluetooth, ferru-bridge, ferru-console, ferru-disks, ferru-docs, ferru-drivers, ferru-edit, ferru-files, ferru-gallery, ferru-greeter, ferru-installer, ferru-library, ferru-lock, ferru-logo, ferru-player, ferru-reader, ferru-settings, ferru-shell, ferru-software, ferru-sources, ferru-update, ferru-viewer
+Filename: pool/main/f/ferru-desktop-live_0.1.0-1_amd64.deb
+Size: 149172
+MD5sum: e54dfe71ef151e08c84ef063bf8375ae
+SHA1: 607279995fb57e6bc32e5927f785d68572c04460
+SHA256: 477695576caefbf11656e07756e26ae57c6d4d78249e094e066ea67ae4024435
+Section: metapackages
+Priority: optional
+Description: Ferrugix OS live desktop metapackage
+ Ferru Desktop Live is the top-level metapackage for the Ferrugix OS
+ live desktop environment. Installing this package pulls in the full
+ Ferru desktop suite (bridge, shell, greeter, installer, software
+ center, settings, drivers, Bluetooth manager, and core apps) and is
+ intended for use in the Ferrugix OS live ISO and desktop seeds.
+
+Package: ferru-desktop-live-dbgsym
+Source: ferru-desktop-live
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 187
+Depends: ferru-desktop-live (= 0.1.0-1)
+Filename: pool/main/f/ferru-desktop-live-dbgsym_0.1.0-1_amd64.deb
+Size: 27388
+MD5sum: 2cc3beb4fd93139ed375b6eccae7e6fc
+SHA1: 7abbe586b6d0cfe4e22b82fe549495185727ae35
+SHA256: 221a89d78ba2562053518f55f0b8dac29eabd855182599e89bedefe7d2321750
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-desktop-live
+Build-Ids: 166505159856c912646dffefdd434c9942bdf0d3
+
+Package: ferru-desktop-meta
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 385
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), ferru-bluetooth, ferru-bridge, ferru-console, ferru-disks, ferru-docs, ferru-drivers, ferru-edit, ferru-files, ferru-gallery, ferru-greeter, ferru-library, ferru-lock, ferru-logo, ferru-player, ferru-reader, ferru-settings, ferru-shell, ferru-software, ferru-sources, ferru-update, ferru-viewer
+Filename: pool/main/f/ferru-desktop-meta_0.1.0-1_amd64.deb
+Size: 149308
+MD5sum: 917cea0aac56d1854f58db8e6d37c8cb
+SHA1: 1a87632a4266b9a25043d92eb7fb46909baf2db4
+SHA256: fd51dc72f9a0388638d755fd7556be304d68d69034605c1a3401a40b8dc7873d
+Section: metapackages
+Priority: optional
+Description: Ferrugix OS installed desktop metapackage
+ Ferru Desktop Meta is the top-level metapackage for an installed
+ Ferrugix OS desktop environment. Installing this package pulls in the
+ full Ferru desktop suite (shell, greeter, software center, settings,
+ Bluetooth manager, drivers, documentation, and core apps) on an
+ already-installed system.
+
+Package: ferru-desktop-meta-dbgsym
+Source: ferru-desktop-meta
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 187
+Depends: ferru-desktop-meta (= 0.1.0-1)
+Filename: pool/main/f/ferru-desktop-meta-dbgsym_0.1.0-1_amd64.deb
+Size: 27336
+MD5sum: 5e88f6f4a707ffdce44fca40ad7822a7
+SHA1: ce963fd4b72596ad4d4cb26fc404ee67d7afab08
+SHA256: 4eb3b64508a42d4f628d8b6c095eeb0703ed3ce608440599baf0392f46a3fd0f
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-desktop-meta
+Build-Ids: 0ddd47e2cf03de4e9a4da8fe256b443e97eefaa8
+
+Package: ferru-disks
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 503
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-disks_0.1.0-1_amd64.deb
+Size: 185016
+MD5sum: 15faa0870295321fa0d755d2170761de
+SHA1: c28edbb9d2d6f8927e66ae750f571af09b894cfa
+SHA256: 7be64124412938e6834174c24ba74772350e16a7c54e196fb4abf06092721408
+Section: admin
+Priority: optional
+Description: Ferrugix disk utility (root-run)
+ GTK4/Libadwaita-based disk utility for Ferrugix OS. Intended to be
+ executed via pkexec so the superuser can authorize full read/write
+ access to block devices. The initial UI lists disks and sizes; real
+ partitioning/formatting logic can be added on top of this scaffold.
+
+Package: ferru-disks-dbgsym
+Source: ferru-disks
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 261
+Depends: ferru-disks (= 0.1.0-1)
+Filename: pool/main/f/ferru-disks-dbgsym_0.1.0-1_amd64.deb
+Size: 36304
+MD5sum: 6c6499300ce1b5d11b8b31ceddaccea0
+SHA1: 828f265440731362426641fcf328e5b3602100a7
+SHA256: 0966f7c86730ae22178297828e2f5eb6b39feec773bc1f516790c05001a07439
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-disks
+Build-Ids: 68f5580a0bfb212d1e6c360cf1145b92b9af11e5
+
+Package: ferru-docs
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-docs_0.1.0-1_amd64.deb
+Size: 162184
+MD5sum: 956650d0e3de64c59366c16d844b3872
+SHA1: 25dfc4d9f5317792fd7d58815e0762e7788551d2
+SHA256: 22b8cdd215242eadce43b09ac9a05c46cbaa97c0b6694e4af6a843a238a8d7a3
+Section: doc
+Priority: optional
+Description: Ferrugix documentation hub
+ GTK4/Libadwaita-based documentation hub for Ferrugix OS. Provides a
+ simple shell for browsing help topics, release notes, and guides.
+
+Package: ferru-docs-dbgsym
+Source: ferru-docs
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 238
+Depends: ferru-docs (= 0.1.0-1)
+Filename: pool/main/f/ferru-docs-dbgsym_0.1.0-1_amd64.deb
+Size: 33188
+MD5sum: 22d95110a8c5531d8f2aa39142936ed7
+SHA1: 1179b153ed3e0cefd60a92dc2e69c864ebf51e34
+SHA256: 6823bab0cc07f255bdc7176b300b24a6123ad0b8b48c6bd21df3815b8b727e70
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-docs
+Build-Ids: bc0e7816da77b39c6392c78880e41a5dd9b6fe3d
+
+Package: ferru-drivers
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 451
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-drivers_0.1.0-1_amd64.deb
+Size: 164544
+MD5sum: 6cafe2ce384b9aa27926cad61cce9294
+SHA1: 5351bbb9a225eab5c245c7737d4385c1f991f4f1
+SHA256: daa0ab2fb4251f87d84c7b98f7ad00468f12e748ecb054e0d46157ef2d68d13f
+Section: x11
+Priority: optional
+Description: Ferrugix driver manager
+ GTK4/Libadwaita-based driver manager shell for Ferrugix OS. Currently
+ a placeholder UI for managing GPU, networking, and other hardware
+ drivers; real backend integration can be added later.
+
+Package: ferru-drivers-dbgsym
+Source: ferru-drivers
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 243
+Depends: ferru-drivers (= 0.1.0-1)
+Filename: pool/main/f/ferru-drivers-dbgsym_0.1.0-1_amd64.deb
+Size: 33928
+MD5sum: 4988171a7f36167a18616b2bbbb0359c
+SHA1: 5bd164517cb9b61b3de73f94417f8d8236283ed3
+SHA256: 31cb011b9f8673be1da5fc940bffdf5330cc7663a1a1eb1cf0c8e6d9eb477109
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-drivers
+Build-Ids: 4d6a60c6a4cc60d6b3239fc0971ead0d1e1a795b
+
+Package: ferru-edit
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 431
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-edit_0.1.0-1_amd64.deb
+Size: 160160
+MD5sum: 6b5c48768f008cf66c520b9695b7c660
+SHA1: 96a36e65a116bf5764d466f6567485a380d85b87
+SHA256: c7a1f379648a45734659e87624a0938f81364ee32d72b0b8a5988eca9fca9d41
+Section: x11
+Priority: optional
+Description: Ferrugix text editor
+ GTK4/Libadwaita-based text editor for Ferrugix OS. Currently a simple
+ placeholder shell around a single text buffer.
+
+Package: ferru-edit-dbgsym
+Source: ferru-edit
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 226
+Depends: ferru-edit (= 0.1.0-1)
+Filename: pool/main/f/ferru-edit-dbgsym_0.1.0-1_amd64.deb
+Size: 32000
+MD5sum: bd3e3abb6ed39d6c3f480deb6db0edc2
+SHA1: f6a832424ed426bbda4db89acad848e146fef66c
+SHA256: a0e3df8067ed3490b2b4114d3d74164812e732fd362968cd8d962ff01e7b88c4
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-edit
+Build-Ids: 9ed43c1262f1efcc7c979539306080af7f4015b4
+
+Package: ferru-files
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-files_0.1.0-1_amd64.deb
+Size: 162224
+MD5sum: 423020ee654cf6698eee75fb09a0e4b0
+SHA1: f89de76f3fb2af765fbca6733ab6664f987496df
+SHA256: d841edf49461c33cdb723240213b7ceef4809009418018fc46afaa9404177147
+Section: x11
+Priority: optional
+Description: Ferrugix file manager
+ GTK4/Libadwaita-based file manager for Ferrugix OS. Currently a simple
+ placeholder shell suitable for integrating real file browsing later.
+
+Package: ferru-files-dbgsym
+Source: ferru-files
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 237
+Depends: ferru-files (= 0.1.0-1)
+Filename: pool/main/f/ferru-files-dbgsym_0.1.0-1_amd64.deb
+Size: 32992
+MD5sum: 36d40d04ab4dcb79d72a45fc10a237cc
+SHA1: af2114796ad8cbeece10cbfa63b1534fe785b6bf
+SHA256: d42607687ac922860a8460e57c7a1ffec5ce961e7cbf9e86ac7343479e894884
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-files
+Build-Ids: a66d78dff49d0b07ea65dd5e2b0655b67e879742
+
+Package: ferru-gallery
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 447
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-gallery_0.1.0-1_amd64.deb
+Size: 162916
+MD5sum: b48cadb237d410729d3f8dbb17055002
+SHA1: 870c0d2cc7ecf249e3c3ade427b11de17427e3c6
+SHA256: 932d2e79c196c1f26b9f3f941434e76bde5d732b934679eb6fb4800348422295
+Section: graphics
+Priority: optional
+Description: Ferrugix gallery
+ GTK4/Libadwaita-based image gallery shell for Ferrugix OS. Currently a
+ simple placeholder flow layout showing sample thumbnails.
+
+Package: ferru-gallery-dbgsym
+Source: ferru-gallery
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 241
+Depends: ferru-gallery (= 0.1.0-1)
+Filename: pool/main/f/ferru-gallery-dbgsym_0.1.0-1_amd64.deb
+Size: 33524
+MD5sum: 0b8e3b59ae135a628d2a19c6213e2f1f
+SHA1: ae52b4abb3450c398106d8bb914066a368465f1d
+SHA256: 4e8006f3d51e861814b4a8a3c41b94098ac15ebf56fc6807d281a19eb935ed7c
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-gallery
+Build-Ids: c7b817e5c697f5afd28ec6f13237bddafadcb950
+
+Package: ferru-greeter
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 447
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-greeter_0.1.0-1_amd64.deb
+Size: 163828
+MD5sum: 0c3a2de44390049270d6d4685bfc1f26
+SHA1: 0082be33bb902d8f4da07900afd32aa02da5891b
+SHA256: 2ab06bbdc2fa8d6597d59ebb9cc2c920879e1041fe1c2b7238b0f0a7e287a1c8
+Section: x11
+Priority: optional
+Description: Ferrugix login greeter
+ GTK4/Libadwaita login greeter for Ferrugix OS. Currently a visual
+ placeholder; real authentication and session handoff can be wired in
+ via the display manager in a later iteration.
+
+Package: ferru-greeter-dbgsym
+Source: ferru-greeter
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 238
+Depends: ferru-greeter (= 0.1.0-1)
+Filename: pool/main/f/ferru-greeter-dbgsym_0.1.0-1_amd64.deb
+Size: 32940
+MD5sum: eb91ce6e13aa3a4fbd240d233e911d67
+SHA1: 424cd9adea0d347a0e42a9f81f5e4f14e35354c7
+SHA256: 5f1e32d898f773241fbfcb995a7683475f6d375d409fae1e76a89ccdc7996baf
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-greeter
+Build-Ids: e632b0f00e63de6a93b2c4b57b91ce5988923239
+
+Package: ferru-installer
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 455
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-installer_0.1.0-1_amd64.deb
+Size: 167108
+MD5sum: 8c698437088673e65eadfba482f8c16e
+SHA1: 9759e67344e9e37c0521051c49c10b04e6e532bb
+SHA256: 890dda28313a75ba374e98b3d29d42aa0be2ac967764873117de72affd4f8b9e
+Section: utils
+Priority: optional
+Description: Ferrugix OS live graphical installer
+ GTK4/Libadwaita-based, Wayland-friendly graphical installer shell for
+ Ferrugix OS. Currently a non-destructive wizard stub; real debootstrap
+ and partitioning logic can be wired in later.
+
+Package: ferru-installer-dbgsym
+Source: ferru-installer
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 244
+Depends: ferru-installer (= 0.1.0-1)
+Filename: pool/main/f/ferru-installer-dbgsym_0.1.0-1_amd64.deb
+Size: 33900
+MD5sum: 9af6fd21b028b233b14bd1fb9615c460
+SHA1: 7b1c093d617f4ba545a89697c60b663548f6588e
+SHA256: f24d5092b28c4993eede1a9f14178af3b55b04b50be3c964f3475049968c50b3
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-installer
+Build-Ids: c751ad710021e2d077799727bd32783d9b715dc1
+
+Package: ferru-library
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 447
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), ferru-docs, ferru-reader, ferru-gallery, ferru-player, ferru-web, ferru-webapps
+Filename: pool/main/f/ferru-library_0.1.0-1_amd64.deb
+Size: 163104
+MD5sum: 3c5e4937b37a643efc4e3c38c8f0f64a
+SHA1: 22cf391ae0aa68dc2e57ebfa52e448724d6e3d3c
+SHA256: 35a819b2691c4ec443022ec7edd26cb561d1c8c204560f69b7622f44f3f19fa9
+Section: utils
+Priority: optional
+Description: Ferrugix Library catalog
+ GTK4/Libadwaita-based library/catalog shell for Ferrugix OS. Intended
+ to provide a unified entry point into applications, documentation, and
+ media, backed by other Ferrugix components.
+
+Package: ferru-library-dbgsym
+Source: ferru-library
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 239
+Depends: ferru-library (= 0.1.0-1)
+Filename: pool/main/f/ferru-library-dbgsym_0.1.0-1_amd64.deb
+Size: 33328
+MD5sum: 7d4cd2d3fbac1fdb89eaa14b60c47b9b
+SHA1: dd059e4ed8a1c1361e5b52db4922ba7ce9743f9a
+SHA256: 6b7f9094fd9c57458cf9931feb6b69425000030545e47282dd7e7bf7c85348f8
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-library
+Build-Ids: 2cccea9febd6ebe6186e2dbd7a564a62b7cfd3d6
+
+Package: ferru-lock
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-lock_0.1.0-1_amd64.deb
+Size: 161584
+MD5sum: db8350a631da4d36b34807d6bf6311f8
+SHA1: 8ec9ace04ecb75b419621f76ae2c016b7aa9c010
+SHA256: e0234cb701499e514ef654e9f7df6c1e2677044593bb3c1ad5e937454addd70c
+Section: x11
+Priority: optional
+Description: Ferrugix OS lock screen
+ Simple GTK4/Libadwaita lock screen for Ferrugix OS which presents
+ a fullscreen “session locked” display. Intended to be invoked by
+ the Ferru shell or display manager on lock events.
+
+Package: ferru-lock-dbgsym
+Source: ferru-lock
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 229
+Depends: ferru-lock (= 0.1.0-1)
+Filename: pool/main/f/ferru-lock-dbgsym_0.1.0-1_amd64.deb
+Size: 31968
+MD5sum: a2c64dab94086e2499de796d6e20a03b
+SHA1: 7d329fd14021612217db54a3d305a6ec30ff0f6a
+SHA256: 8eaa6b211f6beb2be8a807e6f45f3f2fb822079e2f9f9f181c71d1c7a07bba27
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-lock
+Build-Ids: 1283e8305f7cd3509cc647f5bb95b83168086a58
+
+Package: ferru-logo
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 5614
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: pool/main/f/ferru-logo_0.1.0-1_amd64.deb
+Size: 1457848
+MD5sum: 2424dd021cc308a097a6d281df5fc31f
+SHA1: 2d93bdd7fb5e2f23b4f95b4e26a53272398e5df1
+SHA256: 3f65d940807cc9b9a365177f784de273b8d95d457dd0668be13e0db8ed033fbe
+Section: misc
+Priority: optional
+Description: Ferrugix OS system-wide logo
+ Provides the Ferrugix OS Rust-style logo as system-wide distribution
+ branding. Installs PNG assets under standard freedesktop icon names
+ such as distributor-logo, so desktops can show the Ferrugix emblem
+ in menus, about dialogs, and system UIs.
+
+Package: ferru-logo-dbgsym
+Source: ferru-logo
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 187
+Depends: ferru-logo (= 0.1.0-1)
+Filename: pool/main/f/ferru-logo-dbgsym_0.1.0-1_amd64.deb
+Size: 27360
+MD5sum: 959c794bf043f2511a2350acee519e4a
+SHA1: f64e9a9641c33575817e343e02d219022366e5dd
+SHA256: 1c679d87adaf8579b8e6364a7f029d19c74b271d6410625e53b063eb8fcc5fec
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-logo
+Build-Ids: c9ba4e4cfc131c8753b74434029f755e51c92ab2
+
+Package: ferru-player
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 443
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-player_0.1.0-1_amd64.deb
+Size: 164016
+MD5sum: 53c8235193399110a01f770663232d71
+SHA1: 3909b94e1fa62b27fa3f005297e3cf91a098067b
+SHA256: 3881c4fdf6a852ed1bea27b6bbe3460c4b1b1f8c440f7ca699349c5af19bc2d7
+Section: sound
+Priority: optional
+Description: Ferrugix media player
+ GTK4/Libadwaita-based media player shell for Ferrugix OS. Currently a
+ simple placeholder UI for future audio/video playback integration.
+
+Package: ferru-player-dbgsym
+Source: ferru-player
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 237
+Depends: ferru-player (= 0.1.0-1)
+Filename: pool/main/f/ferru-player-dbgsym_0.1.0-1_amd64.deb
+Size: 33212
+MD5sum: 811183e77e86bdd3c6b10f3ae6de62fa
+SHA1: 0d41c463a54c2b5feab2f117458afa811710c8e8
+SHA256: 5678f8cde101f92c6ef91960ead26764a43c1b1e9ab3cb912c25c61a797924f5
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-player
+Build-Ids: 08149a4cae5ab2f024d1ca79b7f73bae4a179b3c
+
+Package: ferru-reader
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-reader_0.1.0-1_amd64.deb
+Size: 161968
+MD5sum: 756cf9a7b5e2a8a9ee158ff694e4a776
+SHA1: 4ac3fd8877433bf645e980c772e9401ba9ebf230
+SHA256: d02d17304da19f876a65cf3b7d831e3c50cec5f3e4f3809db12caa15ebc04d7f
+Section: x11
+Priority: optional
+Description: Ferrugix document and ebook reader
+ GTK4/Libadwaita-based reader shell for Ferrugix OS. Currently provides
+ a simple reading list placeholder; real document/ebook rendering can
+ be wired in later.
+
+Package: ferru-reader-dbgsym
+Source: ferru-reader
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 238
+Depends: ferru-reader (= 0.1.0-1)
+Filename: pool/main/f/ferru-reader-dbgsym_0.1.0-1_amd64.deb
+Size: 33164
+MD5sum: 2bbdf971d004b79b3f2dc4263d45cedc
+SHA1: 2d908dce547a64c0ada8d080dfafe2fef4407884
+SHA256: 7500e63ff601a0e63c1e62e63b082aba336c3c760bb1faa3fd9c027902a8ff20
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-reader
+Build-Ids: 8eb3ecd56b5da040a76afbaa529c02ccd7a57819
+
+Package: ferru-settings
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), ferru-settings-daemon
+Filename: pool/main/f/ferru-settings_0.1.0-1_amd64.deb
+Size: 161840
+MD5sum: bbd36d85905e263a5ab69fdcf423b385
+SHA1: 473ec66504f45a22d164a1bf65ccc170f9ac0049
+SHA256: 872a704c07686bb0443ee275b19d2f7aa8f0d992dc2b476b0ecf1b92629b0279
+Section: x11
+Priority: optional
+Description: Ferrugix system settings
+ GTK4/Libadwaita system settings application for Ferrugix OS. Provides
+ a basic shell for configuration pages, backed by ferru-settings-daemon.
+
+Package: ferru-settings-dbgsym
+Source: ferru-settings
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 234
+Depends: ferru-settings (= 0.1.0-1)
+Filename: pool/main/f/ferru-settings-dbgsym_0.1.0-1_amd64.deb
+Size: 32372
+MD5sum: 3b11860e87c17731dda68c0353924c2f
+SHA1: f539a57b4c56a057c93d54a967e02fa4c91b9970
+SHA256: 15b58a9c0e816cff8f6c1be152eb2c0a30e62c78c21bc54daf71fb4e1ffda02e
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-settings
+Build-Ids: 74b41cf71165a729454eaf6c1bd403d4db627484
+
+Package: ferru-shell
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 429
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), ferru-bridge, ferru-settings-daemon
+Filename: pool/main/f/ferru-shell_0.1.0-1_amd64.deb
+Size: 159524
+MD5sum: fab76c820b264eb3871efd10353a8e39
+SHA1: 1bc0ef50da65094a8050d46bc3881110bd28ac74
+SHA256: 3edd0fe71e9df90cacb16c640acd95d904b1d513c90963a2446b907c2e947732
+Section: x11
+Priority: optional
+Description: Ferrugix OS GTK4/Libadwaita desktop shell
+ Main desktop shell for Ferrugix OS, built with GTK4 and Libadwaita.
+
+Package: ferru-shell-dbgsym
+Source: ferru-shell
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 221
+Depends: ferru-shell (= 0.1.0-1)
+Filename: pool/main/f/ferru-shell-dbgsym_0.1.0-1_amd64.deb
+Size: 31176
+MD5sum: b3e6706b9bc419ba8fad2fbc1cb2e54a
+SHA1: 49739d88b41f355f57dae7ad3c9874add5472bc7
+SHA256: e6ce5cbaad604f0963d6ecbe986e58b58a32da83b82e31d385aeb606b063b356
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-shell
+Build-Ids: 68b3ee846ffd60a8eedf6eee43e3a47c8873633a
+
+Package: ferru-software
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 471
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), ferru-bridge
+Filename: pool/main/f/ferru-software_0.1.0-1_amd64.deb
+Size: 168872
+MD5sum: e046e9a152459c207847a2011891e7e5
+SHA1: 4762cf54890cc9f399f2dc98cb877fe361f16afa
+SHA256: eacbf44ff1b7dcab83872d366ce686299d6d3a5203c9430645f6f22a156c828e
+Section: x11
+Priority: optional
+Description: Ferrugix Software Center
+ GTK4/Libadwaita-based Software Center for Ferrugix OS. APT is the
+ primary backend by default. Flathub is visible as an optional source
+ that must be manually enabled and is intended to be driven via the
+ ferru-bridge APT/Flatpak bridge in a full implementation.
+
+Package: ferru-software-dbgsym
+Source: ferru-software
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 256
+Depends: ferru-software (= 0.1.0-1)
+Filename: pool/main/f/ferru-software-dbgsym_0.1.0-1_amd64.deb
+Size: 35428
+MD5sum: 13b947094e11e31d37b0e05eab622541
+SHA1: fddd411fedd9fb97e36994fd1fba7f0803893ad1
+SHA256: 4dac7fa92f413ed88e85f71bc2c0f9a4ff7e09fbbc1357bc2b2652baecb71714
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-software
+Build-Ids: 652c3cf9b8d0edaafd36b5a103c5df0d18c30b6e
+
+Package: ferru-sources
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 455
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-sources_0.1.0-1_amd64.deb
+Size: 165144
+MD5sum: e883f7ab71d2b2a837bb05f27804bf14
+SHA1: 79700b020bb43df647a5ea57896ef63c3f7ff1d3
+SHA256: 4f17bf1a79d0100e176bda2977d83479c2d9ea16933a4c3d63535f7b6b1990db
+Section: x11
+Priority: optional
+Description: Ferrugix Software Sources
+ GTK4/Libadwaita-based Software Sources shell for Ferrugix OS, focused
+ on APT repositories. Currently a placeholder UI for toggling common
+ sources; real APT backend integration is provided later via ferru-bridge.
+
+Package: ferru-sources-dbgsym
+Source: ferru-sources
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 243
+Depends: ferru-sources (= 0.1.0-1)
+Filename: pool/main/f/ferru-sources-dbgsym_0.1.0-1_amd64.deb
+Size: 33952
+MD5sum: f9ac273ad25529087abae15b6cb1ddc3
+SHA1: 8297ab13443a863b263d595552e0902378dae920
+SHA256: 7422b7337d8f3de8876df19a8ea35164b9306fe7817f77b0ecabe568e2f0c1e6
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-sources
+Build-Ids: 85f04a4f76034eae3bb93be62e35cf5e93eb8e23
+
+Package: ferru-update
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 451
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-update_0.1.0-1_amd64.deb
+Size: 164796
+MD5sum: 32aeb82050ff6bda3774535f25c07df9
+SHA1: 99bd058dee35ff159ba25618ec246ab963edd25d
+SHA256: f8791644cb08c3baf770596aa10a3e91491a758effde4c69d75be392f0d11214
+Section: x11
+Priority: optional
+Description: Ferrugix update manager
+ GTK4/Libadwaita-based update manager shell for Ferrugix OS (APT-only).
+ Currently provides a placeholder UI; backend update logic can be wired
+ in later via ferru-bridge.
+
+Package: ferru-update-dbgsym
+Source: ferru-update
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 243
+Depends: ferru-update (= 0.1.0-1)
+Filename: pool/main/f/ferru-update-dbgsym_0.1.0-1_amd64.deb
+Size: 33888
+MD5sum: 8a000684f9b06c1b6637d7536c696052
+SHA1: c510c3374a4ec4a10d85cfabbeaf63b5198f2c6b
+SHA256: 25229bbb527d01565afe1fa2f1da7d1621a364b5fe2cbd7db83a94de7b7a326e
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-update
+Build-Ids: 52bd848fe0250696b19fa61e1e94b199148d1566
+
+Package: ferru-viewer
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 439
+Depends: libadwaita-1-0 (>= 1.0.1), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgcc-s1 (>= 4.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0)
+Filename: pool/main/f/ferru-viewer_0.1.0-1_amd64.deb
+Size: 161596
+MD5sum: ab83e2a26645ddd01281cc0760491ed0
+SHA1: 1f826abbd4a139cae1f546fa74eb05136fcd455d
+SHA256: 12d7acdc046305d4c19beb2601321e9d0a69fdb902df8ef8382bedf9b0ff8925
+Section: x11
+Priority: optional
+Description: Ferrugix document and image viewer
+ GTK4/Libadwaita-based document and image viewer for Ferrugix OS.
+ Currently a simple placeholder shell that can be extended to support
+ images, PDFs, and other formats.
+
+Package: ferru-viewer-dbgsym
+Source: ferru-viewer
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 235
+Depends: ferru-viewer (= 0.1.0-1)
+Filename: pool/main/f/ferru-viewer-dbgsym_0.1.0-1_amd64.deb
+Size: 33068
+MD5sum: e323264d4ff28ed9097f368432adb69f
+SHA1: 1ddb7f53eed039796cb5bb8f10056c8e98502176
+SHA256: 6f7d37a7162ed754b4a93341f298f9cdcddb047f2c6c158d0dbaf67879e4d95b
+Section: debug
+Priority: optional
+Description: debug symbols for ferru-viewer
+Build-Ids: f9d1ca63f8afdf1701d7c2f7186424797b9e43cc
+
+Package: ferrugix-archive-keyring
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 388
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: pool/main/f/ferrugix-archive-keyring_0.1.0-1_amd64.deb
+Size: 150228
+MD5sum: f9226c4d27d3fb8497a207e080a296ab
+SHA1: e27b142166e52987c21f8ae9556ccf782851fd71
+SHA256: 32d57723a982c0d1491ec5e4790c34ff834a2a9dee666a03f542b5f3f998f449
+Section: admin
+Priority: optional
+Description: Ferrugix OS APT repository keyring
+ Installs the Ferrugix OS APT repository signing key under
+ /usr/share/keyrings so that APT can verify packages from
+ the Ferrugix-OS APT repository hosted on GitHub.
+
