@@ -1,19 +1,19 @@
 Codename: ferrugix
-Date: Tue, 18 Nov 2025 15:44:18 +0000
+Date: Tue, 18 Nov 2025 15:52:48 +0000
 Suite: ferrugix
 MD5Sum:
- 4e40b750d66b68fc7e58525d8764e0ce               73 Release
- 278f79850c6e824cc5f25a169b6ff2b0            40420 main/binary-amd64/Packages
- abcf8e9cd4fd1648cb197cd544b73793            10546 main/binary-amd64/Packages.gz
+ 20dcd8527596c55e58f1a8f4ff3d3767               73 Release
+ f4806f75f485a12cbb8e5723a4e292a1            40420 main/binary-amd64/Packages
+ 32e36902b4febed6e2258ce1108b205a            10555 main/binary-amd64/Packages.gz
 SHA1:
- ee0deb5fa0f2435de9be9e735536d5f2c843638d               73 Release
- 712b2c7c7b7b29113f8e7ba9802d967ce1dbe8f9            40420 main/binary-amd64/Packages
- c03db845825f95da8e7dd3ef727639867d892bc2            10546 main/binary-amd64/Packages.gz
+ c809710fcbbeeec6f13755fe3b890bcab6cd02b2               73 Release
+ 50d7f9898ded6ad99e10fb9740a3ccb37a4e487d            40420 main/binary-amd64/Packages
+ 2e5ca29d695945ea050faac53a127515f552a6d9            10555 main/binary-amd64/Packages.gz
 SHA256:
- 6ba8d41c846b25301b83d026ce171fedc7a869b7d785e8f025c192a0f024ad06               73 Release
- 5170710ebe78cdd853485932c2862e1bb31f7e2474606bc687aefb860a727fad            40420 main/binary-amd64/Packages
- a327052a573f293eaf4354b09eac18b4019d7c64f88c8beb7728c96841f6d9f9            10546 main/binary-amd64/Packages.gz
+ f41b473f730c1703b2d11c557adcf4fc224827d37720cdf8467b7d6e3cf2df07               73 Release
+ 66a5184a83a24e932fd1a2d2c84406ca807c9ca0a9f6437a5fbaa375be1d0ad5            40420 main/binary-amd64/Packages
+ 33838ecc586b974742cd0488960bbda86e2f39051f80a5877f9a821d2ae5a353            10555 main/binary-amd64/Packages.gz
 SHA512:
- e460712b117af565830d4cd2e8434d32061d7c0de5959b803f7e59e79a318f669ff678868a4866ebacd12dd0641124d4151f70a17b7e651e296a0f491f35e716               73 Release
- 45581b3659b6d1c02807081bb063ecbcba0c249a267780812d5652c23a20ba47749d4d009181a8eb9f3371d6e90030ffd179347d8420f0a46d7b9c9800013df4            40420 main/binary-amd64/Packages
- 29797f3310d3aab7a35833ceccf24e6989660e8b0abf128fa3b06748cea89b38be1c09225fae7438a99ef54d803398f15f5b80c721b0602fa4c2cf73f3961e79            10546 main/binary-amd64/Packages.gz
+ e174ecef4ac990654c80fc16e0b1d90493d0742389604b174e09989493467405f29eda0753347749b7535d9bd7b5eebb59f646250fb18abf8f2a445e1324ad0d               73 Release
+ 397ba6b9bc040cfc73104c60ea47d9ecab684d15c43cd7c58ff696628287333659486a4723aac2ce6ee51b03e07fb29d43d457e1d19460b38716eb6bfe341b1e            40420 main/binary-amd64/Packages
+ 50feb881aca36e1bd5dc1a9f5d546ae7964eefba658936ac778cdd958e66437c82301498f7a884d23afdce93587fddf560f71c4d28956ac1d59e4ae60b5c97f3            10555 main/binary-amd64/Packages.gz

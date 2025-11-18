@@ -56,16 +56,16 @@ Description: Ferrugix OS branding for Debian-standard files
  *.ferrugix-bak on first install.
 
 Package: ferru-bridge
-Version: 0.1.0-1
+Version: 0.1.0-2
 Architecture: amd64
 Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
-Installed-Size: 1885
+Installed-Size: 1884
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
-Filename: pool/main/f/ferru-bridge_0.1.0-1_amd64.deb
-Size: 624028
-MD5sum: bb56f56d4cc3c8bc48533585bd4131ec
-SHA1: 48dbbed4f22af55fb30999a30be615b676850396
-SHA256: 30fcd5ade6e79728351f70aca61ff4fa26f3f8b41863e0d562a5b2f32e31f358
+Filename: pool/main/f/ferru-bridge_0.1.0-2_amd64.deb
+Size: 624380
+MD5sum: 82b6b83af81c2ccceafaac253daded1b
+SHA1: 7eea50c251ac2c95272f0e50118b8e6834a4c86e
+SHA256: 439a12199c68a2f9f6981623d79fe6c1ba63a58789e178b3854e927166051935
 Section: utils
 Priority: optional
 Description: Ferrugix APT bridge daemon
