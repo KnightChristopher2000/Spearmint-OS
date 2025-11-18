@@ -1,23 +1,17 @@
-Architectures: amd64
-Codename: ferrugix
-Components: main
-Date: Tue, 18 Nov 2025 12:21:57 +0000
-Label: Ferrugix OS
-Origin: Ferrugix OS
-Suite: ferrugix
+Date: Tue, 18 Nov 2025 12:45:36 +0000
 MD5Sum:
- 3ed36c1646eaac71c33d434784fa9b0f              150 Release
- c18097bbbf55a2ab9a96380c10b40439            39553 main/binary-amd64/Packages
- c5c7954587c478fb104237b08b417914            10214 main/binary-amd64/Packages.gz
+ 4a3cdec35fe55a4e4b584e988f617d11               38 Release
+ 797c09d8eba8f883aa3d6dedff153f69            40370 main/binary-amd64/Packages
+ c598b05b0e8fa7e3fb56c901dfb7632c            10514 main/binary-amd64/Packages.gz
 SHA1:
- 77fa633a1fdaf1088b68716d304723611a15f76e              150 Release
- 27dd5d831ecc9e85ec850682ca8344c71796806d            39553 main/binary-amd64/Packages
- b970731b7928deb68c15dde0c575d25b399a3525            10214 main/binary-amd64/Packages.gz
+ a7a201e4e198208bed8f43815d202f61142dd1b6               38 Release
+ 4b1a58940593b688281df92650d370505435753d            40370 main/binary-amd64/Packages
+ c4899cb8cce2fbbb7e7d1eb3976a5019e232a9ee            10514 main/binary-amd64/Packages.gz
 SHA256:
- 408a76dc3d8daf8eea7f18c25907f50c996ee41cd4691d4b1aaf9f984b0a1b30              150 Release
- 849019b46c686fc8a9c983d003395de0c99e42eded6912161f55b79dbdba15d6            39553 main/binary-amd64/Packages
- dd3285a3b0971bebbb2582e28a91fb790bc6f3ec1bf07d7e89199df32731ac74            10214 main/binary-amd64/Packages.gz
+ 57489eafe512a232050cb824e67464faee5ebe9284ce1ba073cadd9bf82971ae               38 Release
+ 082c60654b917b0ec5b8cc0b2da4edf0c659acce72011cb1f01dd69d55fb1ff4            40370 main/binary-amd64/Packages
+ 2b998f79bec339f5a874c6ac5951828f12f22438a82941686f901829477e39d6            10514 main/binary-amd64/Packages.gz
 SHA512:
- 4f71f958d64585a10be5d85fd1d507082f7bd094bd50640f471b78871889e197dba9d6a937d5540b2750c32fac39ad9f6305d8e7043d845f6081821b4a1e91aa              150 Release
- 48ca299569f33e31e3c2085b46a647c08a55273f22b11662193e58597b7e289453949c05f28ac6e1e8840928585532c1d199a2d1fb3142b90440d5c185664e6f            39553 main/binary-amd64/Packages
- c098d9246de461b6da16d22b2d20115fd891c81111334d0b0b4c65b950522654f0aff0a131171268e3e97fb099a4321ab9c75635e057d2c1bcbd965f739a7292            10214 main/binary-amd64/Packages.gz
+ 06e756072792b8862e670865d1fa8f9ce166a382435e5423d30fe09d360ed412d2678dda4db7716029aa9bc25c44a3a431ee397aa09a6bf3806df17d8b7e56f8               38 Release
+ 76723696d575a421c7b02b7ab407d8c156c955bdfcb29243866429b54cf48677df5924ee76026c9e356d2699828ad8e53d7c41ef4629142d27c1d58a85c0b77d            40370 main/binary-amd64/Packages
+ d898cc9088df4ff0483431757cafa393145e80ffbd075cfe04fa0d399470c5d3f612d400373d1c33c476a474fb8a8f0406dcb05371472146201c5ddb1b366845            10514 main/binary-amd64/Packages.gz

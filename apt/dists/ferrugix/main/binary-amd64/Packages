@@ -34,6 +34,26 @@ Priority: optional
 Description: debug symbols for ferru-bluetooth
 Build-Ids: df15792e3f7d43abdfe5073f383f211ae26b117f
 
+Package: ferru-branding
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 407
+Filename: pool/main/f/ferru-branding_0.1.0-1_amd64.deb
+Size: 155858
+MD5sum: 7404e01b2e9f313055c1bcb6c7e8b543
+SHA1: 215a3f8e7400b6efc56a7a93e4b96f6a7419a8c9
+SHA256: 8626046057f9ca4ad8fde485d54f088534f626eddeeaf771be5a21a0525b29e2
+Section: misc
+Priority: optional
+Description: Ferrugix OS branding for Debian-standard files
+ This package rebrands the underlying Debian system to Ferrugix OS
+ GNU/Linux by updating standard release and identification files
+ such as /usr/lib/os-release, /etc/os-release, /etc/issue,
+ /etc/issue.net, /etc/lsb-release, and /etc/ferrugix-release.
+ Backups of previous files are stored alongside the originals as
+ *.ferrugix-bak on first install.
+
 Package: ferru-bridge
 Version: 0.1.0-1
 Architecture: amd64
