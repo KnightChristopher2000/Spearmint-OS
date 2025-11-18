@@ -1120,3 +1120,22 @@ Description: Ferrugix OS Web Apps launcher
  A GTK4/Libadwaita launcher for Ferrugix web-based apps that
  opens URLs via ferru-web, integrating web apps with the Ferru desktop.
 
+Package: ferrugix-archive-keyring
+Architecture: amd64
+Version: 0.1.0-1
+Priority: optional
+Section: admin
+Maintainer: Christopher M. Bryan <christoferus.21@gmail.com>
+Installed-Size: 388
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: pool/main/f/ferrugix-archive-keyring_0.1.0-1_amd64.deb
+Size: 151710
+MD5sum: eba4bf46a07c19701641bc02cb721bec
+SHA1: ad156c2f27ef68c6578c3e495c54dc5d6c8a01bf
+SHA256: 8ac18d1855d5b0f84f158718639f064ed68bdb9370cbf0d0b43d0986ef2557bf
+SHA512: 7c44e4d35fa163d6375ff55868f2318d9ca8210e506c9ed24cc2bcf866d43d9fb52d19f1b4802949af2b2fa7e6f95b94e46afbef6343444c245ad25cd5ff6f8f
+Description: Ferrugix OS APT repository keyring
+ Installs the Ferrugix OS APT repository signing key under
+ /usr/share/keyrings so that APT can verify packages from
+ the Ferrugix-OS APT repository hosted on GitHub.
+
